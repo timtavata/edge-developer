@@ -443,7 +443,7 @@ source code.
 
 * Complete the next tutorial in this series, [Get Started with CSS](./css.md), to learn how to style your page
   and experiment with style changes in Microsoft Edge DevTools.
-* Read [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) to learn more about the DOM.
+* Read [Introduction to the DOM](https://developer.mozilla.org/docs/Web/API/Document_Object_Model/Introduction) to learn more about the DOM.
 * Check out a course like [Introduction to Web Development](https://www.coursera.org/learn/web-development) to get
   more hands-on web development experience.
 

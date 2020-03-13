@@ -11,7 +11,7 @@ keywords: microsoft edge, web development, f12 tools, devtools
 
 # 3D View
 
-Use the **3D View** to debug your web application by navigating through the [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (DOM) or the [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) stacking context. With it you can: 
+Use the **3D View** to debug your web application by navigating through the [Document Object Model](https://developer.mozilla.org/docs/Web/API/Document_Object_Model) (DOM) or the [z-index](https://developer.mozilla.org/docs/Web/CSS/z-index) stacking context. With it you can: 
 
 - [Explore the web page translated into a 3D perspevtive](#3d-dom)
 - [Debug based on z-index stacking context](#z-index)

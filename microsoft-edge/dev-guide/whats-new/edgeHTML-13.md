@@ -24,7 +24,7 @@ EdgeHTML 13 supports new CSS features, including:
 * CSS [initial](https://developer.microsoft.com/microsoft-edge/platform/status/cssinitialvalue/) and [unset](https://developer.microsoft.com/microsoft-edge/platform/status/cssunsetvalue/) keywords
 
 ### Encrypted Media Extensions
-Microsoft Edge now supports the new unprefixed [Encrypted Media Extensions](https://w3.org/TR/encrypted-media/) APIs. Encrypted Media Extensions (EME) extends the video and audio elements to enable Digital Rights Management (DRM) protected content without using plug-ins. Read more about EME: [Encrypted Media Extensions](https://docs.microsoft.com/microsoft-edge/dev-guide/multimedia/encrypted-media-extensions).
+Microsoft Edge now supports the new unprefixed [Encrypted Media Extensions](https://w3.org/TR/encrypted-media/) APIs. Encrypted Media Extensions (EME) extends the video and audio elements to enable Digital Rights Management (DRM) protected content without using plug-ins. Read more about EME: [Encrypted Media Extensions](/microsoft-edge/dev-guide/multimedia/encrypted-media-extensions).
 
 ### Graphics
 

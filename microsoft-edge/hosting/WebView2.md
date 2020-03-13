@@ -18,7 +18,7 @@ The WebView2 control is currently in developer preview, during which you can pro
 
 ## Supported Platforms
 
-A developer preview is available for Win32 C++ on Windows 10, Windows 8.1, Windows 8, and Windows 7. An Alpha version for WinUI 3.0 is available [here](https://docs.microsoft.com/uwp/toolkits/winui3/). In the future, we plan to support WebView2 on .NET.  
+A developer preview is available for Win32 C++ on Windows 10, Windows 8.1, Windows 8, and Windows 7. An Alpha version for WinUI 3.0 is available [here](/uwp/toolkits/winui3/). In the future, we plan to support WebView2 on .NET.  
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ Developers can target different [channels](https://www.microsoftedgeinsider.com/
 
 ### DevTools
 
-You can use [Microsoft Edge (Chromium) Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium) to debug web content displayed in WebView, just as you would in the browser. While having focus on the WebView window, press `F12`, or press `Ctrl` + `Shift` + `I`, or Right Click + choose `Inspect` to open Developer Tools.
+You can use [Microsoft Edge (Chromium) Developer Tools](/microsoft-edge/devtools-guide-chromium) to debug web content displayed in WebView, just as you would in the browser. While having focus on the WebView window, press `F12`, or press `Ctrl` + `Shift` + `I`, or Right Click + choose `Inspect` to open Developer Tools.
 
 ![F12](webview2/images/F12.PNG)
 

@@ -23,7 +23,7 @@ or trademarks, whether by implication, estoppel or otherwise.
 
 ## Contributing
 
-This is the repository for Microsoft Edge **documentation** hosted at [https://docs.microsoft.com/microsoft-edge/](https://docs.microsoft.com/microsoft-edge/).
+This is the repository for Microsoft Edge **documentation** hosted at [https://docs.microsoft.com/microsoft-edge](/microsoft-edge).
 
 If you would like to see new coverage or have feedback, please consider [**contributing**](/CONTRIBUTING.md).  You can edit the existing content, add new content, or simply create new [issues](https://github.com/MicrosoftDocs/edge-developer/issues). We'll take a look at your suggestions and will work together to incorporate them into the docs.
 
@@ -31,7 +31,7 @@ Find the data for the [`Status`](https://dev.windows.com/microsoft-edge/platform
 
 ### Conventions
 
-- When adding a page, you must add an entry for it in [toc.md](microsoft-edge/toc.md) for it to appear.
+- When adding a page, you must add an entry for it in [toc.yml](microsoft-edge/toc.yml) for it to appear.
 - A folder can contain more folders or `readme.md`s
 - Folder/directory names are dash-separated (e.g., `f12-tools`) and lowercase. They are used in URLs on the docs.microsoft.com site. Don't use underscores or PascalCase/camelCase.
 

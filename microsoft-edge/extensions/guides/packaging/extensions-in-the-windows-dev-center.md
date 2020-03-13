@@ -14,7 +14,7 @@ ms.custom: seodec18
 
 [!INCLUDE [deprecation-note](../../includes/deprecation-note.md)]  
 
-[Partner Center](https://partner.microsoft.com/dashboard) lets you publish and manage all of your apps for Windows devices. You can sign up for a developer account [here](https://developer.microsoft.com/store/register), and refer to the [opening a developer account documentation](https://docs.microsoft.com/windows/uwp/publish/opening-a-developer-account) for any questions you may have about the sign up process.
+[Partner Center](https://partner.microsoft.com/dashboard) lets you publish and manage all of your apps for Windows devices. You can sign up for a developer account [here](https://developer.microsoft.com/store/register), and refer to the [opening a developer account documentation](/windows/uwp/publish/opening-a-developer-account) for any questions you may have about the sign up process.
 > [!NOTE]
 > You will need a [Microsoft account](https://login.live.com/) to sign up for a developer account.
 
@@ -40,4 +40,4 @@ It's recommended that you [reserve the name of your extension](/windows/uwp/publ
 You can also [reserve additional names to use for your extension](https://msdn.microsoft.com/windows/uwp/publish/manage-app-names), which is especially useful if you are offering the extension in multiple languages and want to use different names for different languages. You can find more information on localization in [Localizing extension packages](./localizing-extension-packages.md).
 
 > [!NOTE]
-> Once you've [reached out to us](https://aka.ms/extension-request) and have been approved to have your extension in the Microsoft Store, check out the [app submission checklist](https://docs.microsoft.com/windows/uwp/publish/app-submissions).
+> Once you've [reached out to us](https://aka.ms/extension-request) and have been approved to have your extension in the Microsoft Store, check out the [app submission checklist](/windows/uwp/publish/app-submissions).

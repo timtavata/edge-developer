@@ -78,7 +78,7 @@ Crash dumps are sent to Microsoft and stored on secure Microsoft servers for up 
 
 Crash diagnostic data stored locally on the device can be cleared from the file system in **edge://crashes**.  
 
-To turn off crash diagnostic data collection on Windows 10, go to **Diagnostics & feedback** in Windows Diagnostics & feedback settings.  For versions of Microsoft Edge on all other platforms go to **edge://settings/privacy** and turn off **Improve Microsoft products by sending crash reports and data about how you use the browser**.  This diagnostic data collection can also be turned off for enterprises through [group policies managed by your organization](https://docs.microsoft.com/DeployEdge/microsoft-edge-privacy-policy).  
+To turn off crash diagnostic data collection on Windows 10, go to **Diagnostics & feedback** in Windows Diagnostics & feedback settings.  For versions of Microsoft Edge on all other platforms go to **edge://settings/privacy** and turn off **Improve Microsoft products by sending crash reports and data about how you use the browser**.  This diagnostic data collection can also be turned off for enterprises through [group policies managed by your organization](/DeployEdge/microsoft-edge-privacy-policy).  
 
 ## Diagnostic data about how you use the browser
 
@@ -106,7 +106,7 @@ When a website offers media content that's protected by Digital Rights Managemen
 
 Microsoft Edge supports DRM via the Encrypted Media Extensions (EME) API for HTML5 sites.  The EME API allows websites to communicate with a DRM provider called a Content Decryption Module (CDM).  Different DRM systems, such as Google's Widevine or Microsoft's PlayReady, may be supported by their own CDM implementation.  Content providers may choose to support one or more potential DRM systems and may utilize the functionality of the EME API to decide which DRM system to use for a specific client.  [Learn more about EME privacy](https://www.w3.org/TR/encrypted-media/#privacy).  
 
-Microsoft Edge supports PlayReady DRM only on Windows 10.  PlayReady is an DRM implementation to deliver media experiences such as 4K video and Dolby Atmos audio.  Microsoft Edge uses the Windows Platform Media Foundation APIs to support PlayReady.  To validate access to protected content, Microsoft Edge utilizes the Windows 10 operating system which uses a unique identifier and communicates that with the PlayReady service.  All EME, CDM, and browser data for PlayReady that persists on the device is stored and maintained on Microsoft Edge.  [Learn more](https://docs.microsoft.com/playready/overview/simple-end-to-end-system)
+Microsoft Edge supports PlayReady DRM only on Windows 10.  PlayReady is an DRM implementation to deliver media experiences such as 4K video and Dolby Atmos audio.  Microsoft Edge uses the Windows Platform Media Foundation APIs to support PlayReady.  To validate access to protected content, Microsoft Edge utilizes the Windows 10 operating system which uses a unique identifier and communicates that with the PlayReady service.  All EME, CDM, and browser data for PlayReady that persists on the device is stored and maintained on Microsoft Edge.  [Learn more](/playready/overview/simple-end-to-end-system)
 
 Microsoft Edge supports Google's Widevine DRM and this option is on by default.  Microsoft Edge will periodically fetch updates for Widevine from Google servers.  The use of Widevine may include communications to Google.  Users may opt out of using Widevine in Microsoft Edge by disabling the Widevine DRM flag at **edge://flags/#edge-widevine-drm**.  Widevine has the capability to create a unique device identifier and transmit it to Google.  For more specific information on Widevine and privacy, see Google's privacy policy.
 
@@ -237,7 +237,7 @@ The new tab page also allows you to add a custom image to be the background.  Th
 
 ### Office 365
 
-If you're signed in to Microsoft Edge with a work or school account, your organization may turn on Office 365 as an option for page content on the new tab page. This feature is currently available only for commercial customers, and is governed under the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products). [Learn more about privacy for Office 365](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls).
+If you're signed in to Microsoft Edge with a work or school account, your organization may turn on Office 365 as an option for page content on the new tab page. This feature is currently available only for commercial customers, and is governed under the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products). [Learn more about privacy for Office 365](/deployoffice/privacy/overview-privacy-controls).
 
 InPrivate browsing and Guest mode offer alternative new tab page experiences.
 
@@ -336,7 +336,7 @@ SmartScreen is turned on by default for Microsoft Edge.  To turn off SmartScreen
 
 ### Block potentially unwanted apps 
 
-Optionally, SmartScreen can check the URL of files you download to see if it's been categorized as potentially unwanted apps.  Blocking potentially unwanted apps helps deliver more productive, performant, and delightful Windows experiences.  This setting is turned off by default and is only available on Windows 10 devices.  You can turn on **Block potentially unwanted apps** by going to **edge://settings/privacy**.  Learn [how potentially unwanted apps are categorized](https://docs.microsoft.com/windows/security/threat-protection/intelligence/criteria#potentially-unwanted-application-pua) or how to [configure](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/detect-block-potentially-unwanted-apps-windows-defender-antivirus) this setting.  
+Optionally, SmartScreen can check the URL of files you download to see if it's been categorized as potentially unwanted apps.  Blocking potentially unwanted apps helps deliver more productive, performant, and delightful Windows experiences.  This setting is turned off by default and is only available on Windows 10 devices.  You can turn on **Block potentially unwanted apps** by going to **edge://settings/privacy**.  Learn [how potentially unwanted apps are categorized](/windows/security/threat-protection/intelligence/criteria#potentially-unwanted-application-pua) or how to [configure](/windows/security/threat-protection/windows-defender-antivirus/detect-block-potentially-unwanted-apps-windows-defender-antivirus) this setting.  
 
 ## Spellcheck
 
@@ -370,7 +370,7 @@ Depending on your privacy settings, crash reports and info about how you use the
 
 Microsoft Edge is designed to detect and block known trackers.  Users can choose from three levels of tracking prevention—Basic, Balanced, and Strict.  To protect our users' privacy, balanced is selected by default.  Microsoft Edge detects trackers before they load on the page by using an open source list of known trackers.  This list is downloaded on to the device periodically as the list is updated.  The number of trackers blocked and names of those trackers are stored locally on the device for statistical purposes.  This data can be cleared by going to **edge://settings/privacy/blockedTrackers**.  The detection and blocking of trackers occurs locally on the device.  You can turn off tracking prevention by going to **edge://settings/privacy**.  [Learn more](https://support.microsoft.com/help/4533959)  
 
-You can turn off list updates via the group policy: [Enable component updates in Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-policies#componentupdatesenabled).  
+You can turn off list updates via the group policy: [Enable component updates in Microsoft Edge](/deployedge/microsoft-edge-policies#componentupdatesenabled).  
 
 ![TrackingPrevention](./media/WhitepaperMedia/TrackingPrevention.png)
 
@@ -416,7 +416,7 @@ Windows Information Protection (WIP) helps prevent the accidental leaking of cor
 
 ![WIP](./media/WhitepaperMedia/WIP.png)
 
-If WIP is turned on for your version of Microsoft Edge, the browser collects event logs and sends them to your organization.  [Learn more about the event logs captured by WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/collect-wip-audit-event-logs).  If WIP is turned on, you can't opt out of this data collection.  WIP is only available on releases of Windows 10 from August 2016 and newer.
+If WIP is turned on for your version of Microsoft Edge, the browser collects event logs and sends them to your organization.  [Learn more about the event logs captured by WIP](/windows/security/information-protection/windows-information-protection/collect-wip-audit-event-logs).  If WIP is turned on, you can't opt out of this data collection.  WIP is only available on releases of Windows 10 from August 2016 and newer.
 
 ## Thank you!
 

@@ -13,11 +13,11 @@ keywords: edge, web development, html, css, javascript, developer
 # Performance Analysis
 
 If you're new to performance, you should check out the [F12 DevTools guide](./devtools-guide.md).
-The [F12 tools](./devtools-guide.md) built into Microsoft Edge can be used to analyze the general performance of a web site. It provides similar (but more limited) capabilities to the [Windows Performance Toolkit](https://docs.microsoft.com/windows-hardware/test/wpt/index) from right within the browser.
+The [F12 tools](./devtools-guide.md) built into Microsoft Edge can be used to analyze the general performance of a web site. It provides similar (but more limited) capabilities to the [Windows Performance Toolkit](/windows-hardware/test/wpt/index) from right within the browser.
 
 
 
-If you want a deeper analysis of browser performance, the Microsoft Edge team uses the [Windows Performance Toolkit](https://docs.microsoft.com/windows-hardware/test/wpt/index) (WPT). WPT was created by the Windows team to conduct in-depth program performance analysis. It straddles the boundaries between website JavaScript and Microsoft Edge native code, allowing both to be viewed within the same tool. WPT can be used to:
+If you want a deeper analysis of browser performance, the Microsoft Edge team uses the [Windows Performance Toolkit](/windows-hardware/test/wpt/index) (WPT). WPT was created by the Windows team to conduct in-depth program performance analysis. It straddles the boundaries between website JavaScript and Microsoft Edge native code, allowing both to be viewed within the same tool. WPT can be used to:
  - Measure CPU time taken for software to complete work
  - Calculate the memory allocated by software
  - Show the details of downloading files from remote servers
@@ -29,7 +29,7 @@ To get started with using the Windows Performance Toolkit to analyze your websit
 ![ADK Installation Options](./media/adk-installoptions.png)
 
 Here we'll cover how to record and analyze a performance trace. 
-To learn more about what's included in the Windows Performance Toolkit, check out the full [WPT documentation](https://docs.microsoft.com/windows-hardware/test/wpt/index).
+To learn more about what's included in the Windows Performance Toolkit, check out the full [WPT documentation](/windows-hardware/test/wpt/index).
 
 ## Recording a trace
 Next, set up your user scenario and prepare to gather a trace using Windows Performance Recorder.

@@ -728,7 +728,7 @@ An **MSWebViewAsyncOperation** object that, when it completes, provides a **Blob
 
 ### captureSelectedContentToDataPackageAsync
 
-Asynchronously gets a [DataPackage](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage) that contains the selected content within the **webview**.
+Asynchronously gets a [DataPackage](/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage) that contains the selected content within the **webview**.
 
 ```js
 var msWebViewAsyncOperation = webview.captureSelectedContentToDataPackageAsync();
@@ -739,7 +739,7 @@ This method has no parameters.
 #### Return value
 Type: **MSWebViewAsyncOperation**
 
-An **MSWebViewAsyncOperation** object that, when it completes, provides a [DataPackage](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage) object that contains the image. When using **captureSelectedContentToDataPackageAsync**, you need to define success and error handlers after defining the operation. After applying the event handlers, call the start method on the MSWebViewAsyncOperation object to execute the operation.
+An **MSWebViewAsyncOperation** object that, when it completes, provides a [DataPackage](/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage) object that contains the image. When using **captureSelectedContentToDataPackageAsync**, you need to define success and error handlers after defining the operation. After applying the event handlers, call the start method on the MSWebViewAsyncOperation object to execute the operation.
 
 ```js
  var operation = webview.captureSelectedContentToDataPackageAsync();

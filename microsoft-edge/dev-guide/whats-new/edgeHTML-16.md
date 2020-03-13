@@ -72,7 +72,7 @@ Both setups will support the same immersive video and gaming experiences.
 
 For more info about the upcoming Windows Mixed Reality updates, check out the [Windows Mixed Reality](https://blogs.windows.com/windowsexperience/2017/08/28/windows-mixed-reality-holiday-update/) holiday update blog post. 
 
-For guides and demos, head over to the [WebVR Developer Guide](https://docs.microsoft.com/microsoft-edge/webvr/).
+For guides and demos, head over to the [WebVR Developer Guide](/microsoft-edge/webvr/).
 
  > [!NOTE] 
  > Since the WebVR spec is still in development, Microsoft Edge's implementation may change later down the line.

@@ -175,17 +175,17 @@ You'll noticed icons named "inactive##.png" included in the images folder -- we 
 
 Now that we've added the user interface and created icons, let's test the extension. Walk through the steps for [Adding an extension](./adding-and-removing-extensions.md#adding-an-extension) to Microsoft Edge. Then, come back to this guide.
 
-After you've added your extension, navigate to any [docs.microsoft.com](https://docs.microsoft.com/) page. You should see the following popup after clicking on the browser action. The color of the [docs.microsoft.com](https://docs.microsoft.com/) body should also change color.
+After you've added your extension, navigate to any [docs.microsoft.com](/) page. You should see the following popup after clicking on the browser action. The color of the [docs.microsoft.com](/) body should also change color.
 
 ![Docs.microsoft.com header changed to Aliceblue](../media/color-changer_header_aliceblue.png)
 
 ![Docs.microsoft.com header changed to Cornsilk](../media/color-changer_header_cornsilk.png)
 
-If you encounter any errors or functionality that's not working, check out the [Debugging extensions](https://docs.microsoft.com/microsoft-edge/extensions/guides/debugging-extensions) guide or download the full sample here on [GitHub](https://github.com/MicrosoftEdge/MicrosoftEdge-Extensions-Demos/tree/master/color_changer).
+If you encounter any errors or functionality that's not working, check out the [Debugging extensions](/microsoft-edge/extensions/guides/debugging-extensions) guide or download the full sample here on [GitHub](https://github.com/MicrosoftEdge/MicrosoftEdge-Extensions-Demos/tree/master/color_changer).
 
 ## Adding content and background scripts 
 
-Let's go one step further and add logic to disable the extension from working on pages outside the [docs.microsoft.com](https://docs.microsoft.com/) domain. 
+Let's go one step further and add logic to disable the extension from working on pages outside the [docs.microsoft.com](/) domain. 
 
 To do this, we first need to create a [content script](https://developer.mozilla.org/Add-ons/WebExtensions/Content_scripts). Content scripts run in the context of a particular web page, can access the content of a web page, and can communicate with background scripts, which we will create shortly. Inside of your "js" directory, create a file called "content.js".  Add the following code. 
 

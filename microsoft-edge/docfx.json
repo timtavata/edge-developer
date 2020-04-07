@@ -59,6 +59,8 @@
       "docs.html"
     ],
     "dest": "microsoft-edge",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "exportRawModel": true,
+    "exportViewModel": true
   }
 }

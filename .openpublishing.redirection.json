@@ -7,7 +7,7 @@
     },
     {
       "source_path": "microsoft-edge/extensions/test-redirection.md",
-      "redirect_url": "/microsoft-edge/microsoft-browser-extension-policy",
+      "redirect_url": "/microsoft-edge/devtools-guide/storage",
       "redirect_document_id": false
     },
     {

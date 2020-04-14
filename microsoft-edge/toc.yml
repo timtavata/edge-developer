@@ -338,6 +338,8 @@
     - name: Extensions (Chromium)
       href: extensions-chromium/index.md
       items: 
+        - name: Test redirection
+          href: extensions/test-redirection.md
         - name: Getting Started Tutorial
           href: extensions-chromium/getting-started/index.md
           items: 

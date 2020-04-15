@@ -164,7 +164,10 @@
 ## [UnviewableContentIdentifiedEvent](webview/UnviewableContentIdentifiedEvent.md)
 ## [WebResourceRequestedEvent](webview/WebResourceRequestedEvent.md)
 # [WebView2 (developer preview)](webview2.md)
-## [Getting Started](webview2/GettingStarted.md)
+## Getting Started
+### [Win32 C++](webview2/GettingStarted/win32.md)
+### [WPF](webview2/GettingStarted/wpf.md)
+### [WinForms](webview2/GettingStarted/winforms.md)
 ## [Release notes](webview2/ReleaseNotes.md)
 ## Tooling
 ### [WebDriver](webview2/Tooling/webdriver.md)

@@ -4,7 +4,7 @@ title: Microsoft Edge WebView 2 for WPF apps
 author: MSEdgeTeam
 ms.author: msedgedevrel
 ms.date: 05/19/2020
-ms.topic: reference
+ms.topic: quickstart
 ms.prod: microsoft-edge
 ms.technology: webview
 keywords: IWebView2, IWebView2WebView, webview2, webview, wpf apps, wpf, edge, ICoreWebView2, ICoreWebView2Host, browser control, edge html
@@ -12,4 +12,6 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, wpf apps, wpf, edge, I
 
 # Getting Started with WebView2 for WPF Applications
 
-TBD
+## TBD
+
+Quick start doc to setting up a WPF app in 10 mins or less.

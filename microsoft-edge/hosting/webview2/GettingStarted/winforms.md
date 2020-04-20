@@ -4,7 +4,7 @@ title: Microsoft Edge WebView 2 for WinForms apps
 author: MSEdgeTeam
 ms.author: msedgedevrel
 ms.date: 05/19/2020
-ms.topic: reference
+ms.topic: quickstart
 ms.prod: microsoft-edge
 ms.technology: webview
 keywords: IWebView2, IWebView2WebView, webview2, webview, winform apps, winform, edge, ICoreWebView2, ICoreWebView2Host, browser control, edge html
@@ -12,4 +12,6 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, winform apps, winform,
 
 # Getting Started with WebView2 for Windows Forms Applications
 
-TBD
+## TBD
+
+Quick start guide to setting up a WinForms project in 10 mins or less

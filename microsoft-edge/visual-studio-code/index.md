@@ -29,7 +29,17 @@ Debug your front-end JavaScript code line by line and display `console.log()` st
 
 Use the [Debugger for Microsoft Edge](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge) VS Code extension to launch or attach to both Microsoft Edge (EdgeHTML) and Microsoft Edge (Chromium). Check out [this page](./debugger-for-edge.md) for a walkthrough of debugging Microsoft Edge from VS Code and sample **launch.json** configurations.
 
-![GIF of the Debugger for Edge VS Code extension in action!](./media/debugger-for-edge.gif)
+<!--![GIF of the Debugger for Edge VS Code extension in action!](./media/debugger-for-edge.gif)  -->  
+
+---  
+
+---  
+
+[ ![Debugger for Edge VS Code extension in action](./media/vscode-debugger-install.png) ](./media/debugger-for-edge.gif#lightbox)  
+
+---  
+
+---  
 
 ## Elements for Microsoft Edge
 

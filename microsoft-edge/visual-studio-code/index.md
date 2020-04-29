@@ -39,6 +39,18 @@ Use the [Debugger for Microsoft Edge](https://marketplace.visualstudio.com/items
 
 ---  
 
+---
+
+:::image type="content" source="./media/vscode-debugger-install.png" alt-text="Debugger for Edge VS Code extension in action" lightbox="./media/debugger-for-edge.gif#lightbox":::
+
+---  
+
+---  
+
+:::image type="content" source="./media/vscode-debugger-install.png" alt-text="Debugger for Edge VS Code extension in action" lightbox="./media/debugger-for-edge.gif":::
+
+---  
+
 ---  
 
 ## Elements for Microsoft Edge

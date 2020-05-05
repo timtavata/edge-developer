@@ -72,9 +72,9 @@ Use the [Debugger for Microsoft Edge](https://marketplace.visualstudio.com/items
 
 ---  
 
-[^Chrome+1]:  
+[^Chrome+1]:
 Based on user and developer feedback, the indicated feature or change ships one release after Chrome.  
-[^Chrome=+1]:  
+[^Chrome=+1]:
 Based on user and developer feedback, the indicated feature or change ships at the same time or one release after Chrome.  
 
 ---  

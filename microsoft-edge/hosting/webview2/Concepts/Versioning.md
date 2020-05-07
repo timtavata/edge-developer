@@ -12,6 +12,20 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, wpf apps, wpf, edge, I
 
 # Versioning of WebView2
 
-## TBD
+The version of the WebView2 SDK matches the version of the Browser. The Chromium browser updates every 6 weeks. These updates vary from new web platform functionality to security patches and bug fixes. The cadence is controlled by the Chromium project.
 
-The Versioning model of WebView2 is a bit complex. We should explain the 2 approaches, evergreen/BYO. And talk about the trade offs and advantages. And some of the thinking a developer should use when deciding which to take advantage of.
+## Evergreen 
+The WebView2 control relies on the Microsoft Edge (Chromium) browser and currently has an evergreen distribution model – instead of packaging a browser in the app bundle, apps use the evergreen browser installed on users’ machines. The evergreen browser updates itself on a regular cadence, therefore apps targeting the evergreen WebView2 automatically get the latest feature and security updates for hosted web content. The WebView2 SDK is updated separately as new APIs become available. This is the recommended model for most developers. 
+
+## Fixed (Bring-Your-Own)
+
+In the future, there will be a second bring-your-own (BYO) option that allows developers to bundle a redistributable version of the browser with their apps. BYO brings a locked platform, but requires a larger disk footprint for the packaged browser and developers will have to take on the responsibility of servicing and updating the control themselves.
+
+## Browser Channels
+
+Developers can target different [channels](https://www.microsoftedgeinsider.com/download/) of the Microsoft Edge (Chromium) browser to power the WebView2 control. In most cases, production applications should target the Stable channel, but developers often need to test on Beta, Dev, or Canary to ensure their applications continue to work in the near future. The WebView2 API allows developers to programmatically target either the most stable or the least stable channel installed on users’ machine. Alternatively, developers can also use the below registry key to enforce a channel. See more details in [CreateWebView2EnvironmentWithDetails](webview2/reference/webview2.idl.md) function.
+
+
+## Feedback
+
+If something is unclear, please let us know! Visit our [feedback repo](https://aka.ms/webviewfeedback) to ask us a question, submit feature requests, or bug reports. 

@@ -12,8 +12,6 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, win32 apps, win32, edg
 
 # How to Debug when Developing with WebView2
 
-# How to Debug when Developing with WebView2
-
 The goal of the Microsoft Edge WebView2 control is to combine the best of web and native both in terms of functionality and in terms of developer tooling. The following are different tools you can take advantage of when developing with WebView2.
 
 ## Microsoft Edge DevTools
@@ -22,7 +20,7 @@ The goal of the Microsoft Edge WebView2 control is to combine the best of web an
 
 You can use [Microsoft Edge (Chromium) Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium) to debug web content displayed in WebView, just as you would in the browser. While having focus on the WebView window, press `F12`, or press `Ctrl` + `Shift` + `I`, or Right Click + choose `Inspect` to open Developer Tools.
 
-![F12](../webview2/images/F12.PNG)
+![F12](./../images/F12.PNG)
 
 **Note when debugging application in Visual Studio with the native debugger attached, `F12` may trigger the native debugger instead of Developer Tools. Use `Ctrl` + `Shift` + `I`, or Right Click + `Inspect` to avoid potential hotkey conflict.**
 
@@ -30,11 +28,11 @@ You can use [Microsoft Edge (Chromium) Developer Tools](https://docs.microsoft.c
 
 You can use the script debugger in Visual Studio 2019 (minimum version 16.4 Preview 2) to debug your script within WebView2 right from the IDE. Make sure the **JavaScript diagnostics** component in **Desktop development with C++** workload is installed.
 
-![VSJSDiagnostics](../webview2/images/VSJSDiagnostics.jpg)
+![VSJSDiagnostics](./../images/VSJSDiagnostics.jpg)
 
 Right click on your project and select **Properties**. Under **Configuration Properties** > **Debugging** > **Debugger Type**,  choose the **JavaScript (WebView2)** option to enable WebView2 script debugging. More details to follow soon.
 
-![VSScriptDebugger](../webview2/images/VSScriptDebugger.jpg)
+![VSScriptDebugger](../images/VSScriptDebugger.jpg)
 
 ### Visual Studio Code
 

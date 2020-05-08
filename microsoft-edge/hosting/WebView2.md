@@ -18,10 +18,14 @@ The Microsoft Edge WebView2 control enables you to embed web technologies (HTML,
 
 With WebView2, developers can embed web code in parts of their native application or build the entire native application within a single WebView.
 
-[!NOTE]
-The WebView2 control is currently in developer preview, during which you can prototype your solutions and share feedback with us to shape the future stable API. There will likely be some breaking changes as we evolve the API during preview, and when this happens, you will need to have both the WebView2 SDK and the Microsoft Edge (Chromium) browser updated. Breaking changes will be noted in the [release notes](webview2/releasenotes.md) of the SDK. This will lock down as WebView2 approaches beta and stable.
+> [!NOTE]
+> The WebView2 control is currently in developer preview, during which you can prototype your solutions and share feedback with us to shape the future stable API. There will likely be some breaking changes as we evolve the API during preview, and when this happens, you will need to have both the WebView2 SDK and the Microsoft Edge (Chromium) browser updated. Breaking changes will be noted in the [release notes](webview2/releasenotes.md) of the SDK. This will lock down as WebView2 approaches beta and stable.
 
-## Web vs. Native Development
+## Supported Platforms
+
+A developer preview is available for Win32 C++, .NET Framework, and .NET Core on Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2016, Windows Server 2012/2012R2, and Windows Server 2008 R2. An Alpha version for WinUI 3.0 is available [here](https://docs.microsoft.com/uwp/toolkits/winui3/).
+
+## Hybrid Application Approach
 
 Developers often have to chose between building a web application or a native application. The decision often hinges on the trade-off between Reach and Power.
 
@@ -31,7 +35,7 @@ Web applications allow for a broad reach. Web developers can reuse most, if not 
 
 Hybrid applications allow developers to enjoy the best of both worlds. Hybrid application developers benefit from the ubiquity and strength of the web platform as well as the power and full capabilities of the native platform.
 
-## Benefits of Hybrid Applications
+## Benefits of WebView2
 
 WebView2 is an essential component of hybrid applications, because it allows for: 
 
@@ -41,11 +45,7 @@ WebView2 is an essential component of hybrid applications, because it allows for
 2. **Rapid Innovation:** Web development allows for faster deployment and iteration.
 3. **Web Ecosystem & Skillset:** Developers can utilize the entire web platform, tooling, and talent that exists within the web ecosystem.
 4. **Native Capabilities:** Developers can access the full set of Native APIs.
-5. **Incremental Adoption:** Developers can add web components piece by piece into their application.
-
-## Supported Platforms
-
-A developer preview is available for Win32 C++, .NET Framework, and .NET Core on Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2016, Windows Server 2012/2012R2, and Windows Server 2008 R2. An Alpha version for WinUI 3.0 is available [here](https://docs.microsoft.com/uwp/toolkits/winui3/).   
+5. **Incremental Adoption:** Developers can add web components piece by piece into their application.   
 
 ## Getting Started
 

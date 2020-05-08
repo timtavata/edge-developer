@@ -27,7 +27,8 @@ Developers can target different [channels](https://www.microsoftedgeinsider.com/
 
 The Microsoft Edge WebView2 Runtime is a packaging of the browser binaries optimized for use by WebView2 applications. It will function stand alone or side-by-side with a client Edge Browser install. A single install of the run-time will support any number of WebView2 applications. Install of the runtime will not appear as a browser install to end-user, i.e. no desktop shortcuts, start menu entry, or protocol registration.
 
-An application utilizing WebView2 must ensure the installation of the Microsoft Edge WebView2 Runtime has occurred. At application install time you should check the current install status, which can be determined by using [GetAvailableCoreWebView2BrowserVersionString](). If the WebView2 Runtime is not available, you should chain the Microsoft Edge WebView2 Runtime Installer to your install flow.
+An application utilizing WebView2 must ensure the installation of the Microsoft Edge WebView2 Runtime has occurred. At application install time you should check the current install status, which can be determined by using [GetAvailableCoreWebView2BrowserVersionString](webview2/reference/webview2.idl.md#getavailablecorewebview2browserversionstring)s
+. If the WebView2 Runtime is not available, you should chain the Microsoft Edge WebView2 Runtime Installer to your install flow.
 
 
 ## Feedback

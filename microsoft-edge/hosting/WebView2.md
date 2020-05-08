@@ -12,24 +12,24 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, win32 apps, win32, edg
 
 # Introduction to Microsoft Edge WebView2 (Preview)
 
-The Microsoft Edge WebView2 control enables you to host web content in your native application using [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/) as the rendering engine.
+The Microsoft Edge WebView2 control enables you to embed web technologies (HTML, CSS, Javacript) in your native application using [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/) as the rendering engine.
 
 ![whatwebview](./webview2/images/whatwebview.PNG)
 
-With WebView2, developers can embed web code (HTML/CSS/Javscript) in parts of their native application or build the entire native application with a single WebView.
+With WebView2, developers can embed web code in parts of their native application or build the entire native application within a single WebView.
 
 [!NOTE]
 The WebView2 control is currently in developer preview, during which you can prototype your solutions and share feedback with us to shape the future stable API. There will likely be some breaking changes as we evolve the API during preview, and when this happens, you will need to have both the WebView2 SDK and the Microsoft Edge (Chromium) browser updated. Breaking changes will be noted in the [release notes](webview2/releasenotes.md) of the SDK. This will lock down as WebView2 approaches beta and stable.
 
 ## Web vs. Native Development
 
-When building an application, developers often have to chose between building a web application or a native application. The decision often hinges on the trade-off between Reach and Power.
+Developers often have to chose between building a web application or a native application. The decision often hinges on the trade-off between Reach and Power.
 
 ![webnative](./webview2/images/webnative.PNG)
 
-Web applications allow for a broad reach. Web developers can reuse most, if not all of their code across all different platforms. Native applications are more powerful. Native developers utilize the capabilities of the entire native platform.
+Web applications allow for a broad reach. Web developers can reuse most, if not all of their code, across all different platforms. Native applications, however, can utilize the capabilities of the entire native platform.
 
-Hybrid applications allow developers to have the best of both worlds. Hybrid application developers benefit from the ubiquity and strength of the web platform as well as the power and full capabilities of the native platform.
+Hybrid applications allow developers to enjoy the best of both worlds. Hybrid application developers benefit from the ubiquity and strength of the web platform as well as the power and full capabilities of the native platform.
 
 ## Benefits of Hybrid Applications
 
@@ -39,7 +39,7 @@ WebView2 is an essential component of hybrid applications, because it allows for
 
 1. **Code Sharing:** Using web code allows developers to share their codebase across platforms.
 2. **Rapid Innovation:** Web development allows for faster deployment and iteration.
-3. **Web Ecosystm & Skillset:** Developers can utilize the entire web platform, tooling, and talent that exists within the web ecosystem.
+3. **Web Ecosystem & Skillset:** Developers can utilize the entire web platform, tooling, and talent that exists within the web ecosystem.
 4. **Native Capabilities:** Developers can access the full set of Native APIs.
 5. **Incremental Adoption:** Developers can add web components piece by piece into their application.
 

@@ -12,24 +12,33 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, wpf apps, wpf, edge, I
 
 # Versioning of WebView2
 
-The version of the WebView2 SDK matches the version of the Browser. The Chromium browser updates every 6 weeks. These updates vary from new web platform functionality to security patches and bug fixes. The cadence is controlled by the Chromium project.
+Each WebView2 SDK has a minimum browser version required to be installed. This browser version is specified in our [Release Notes]() and is the version of the Canary channel on the day the SDK is launched. 
+
+To develop with WebView2, the minimum version of [Microsoft Edge (chromium)]() supported by the WebView2 SDK must be installed on your machine. Currently, we have the same requirement for user's machines. 
+
+In the future, we do plan to change this requirement. Read our [Distribution]() section to learn more.
 
 ## Evergreen vs. Fixed (Bring-Your-Own)
-The WebView2 control relies on the Microsoft Edge (Chromium) browser and currently has an evergreen distribution model – instead of packaging a browser in the app bundle, apps use the evergreen browser installed on users’ machines. The evergreen browser updates itself on a regular cadence, therefore apps targeting the evergreen WebView2 automatically get the latest feature and security updates for hosted web content. The WebView2 SDK is updated separately as new APIs become available. This is the recommended model for most developers. 
+Currently, we support only an evergreen distribution model – instead of packaging a browser in the app bundle, apps use the evergreen browser installed on users’ machines. The evergreen browser updates itself on a regular cadence, therefore apps targeting the evergreen WebView2 automatically get the latest feature and security updates for hosted web content. The WebView2 SDK is updated separately as new APIs become available. This is the recommended model for most developers. 
 
-In the future, there will be a second bring-your-own (BYO) option that allows developers to bundle a redistributable version of the browser with their apps. BYO brings a locked platform, but requires a larger disk footprint for the packaged browser and developers will have to take on the responsibility of servicing and updating the control themselves.
+In the future, there will be a second fixed or bring-your-own (BYO) option that allows developers to bundle a redistributable version of the browser with their apps. BYO brings a locked platform, but requires a larger disk footprint for the packaged browser and developers will have to take on the responsibility of servicing and updating the control themselves. This version will be tied to a specific version of the WebView2 SDK.
 
-## Browser Channels
+## Evergreen Versioning
 
-Developers can target different [channels](https://www.microsoftedgeinsider.com/download/) of the Microsoft Edge (Chromium) browser to power the WebView2 control. In most cases, production applications should target the Stable channel, but developers often need to test on Beta, Dev, or Canary to ensure their applications continue to work in the near future. The WebView2 API allows developers to programmatically target either the most stable or the least stable channel installed on users’ machine. Alternatively, developers can also use the below registry key to enforce a channel. See more details in [CreateWebView2EnvironmentWithDetails](webview2/reference/webview2.idl.md) function.
+Unlike the Fixed (Bring Your Own) version, the evergreen model is being updated on a regular cadence.
 
-## Microsoft Edge WebView2 Runtime
+### Browser Channels
 
-The Microsoft Edge WebView2 Runtime is a packaging of the browser binaries optimized for use by WebView2 applications. It will function stand alone or side-by-side with a client Edge Browser install. A single install of the run-time will support any number of WebView2 applications. Install of the runtime will not appear as a browser install to end-user, i.e. no desktop shortcuts, start menu entry, or protocol registration.
+Microsoft Edge (Chromium) has four browser [channels](https://www.microsoftedgeinsider.com/download/): Canary, Dev, Beta, and Stable. The Canary version updates daily, the Dev channel updates weekly, and the Beta and Stable channels update every 6 weeks. 
 
-An application utilizing WebView2 must ensure the installation of the Microsoft Edge WebView2 Runtime has occurred. At application install time you should check the current install status, which can be determined by using [GetAvailableCoreWebView2BrowserVersionString](webview2/reference/webview2.idl.md#getavailablecorewebview2browserversionstring)s
-. If the WebView2 Runtime is not available, you should chain the Microsoft Edge WebView2 Runtime Installer to your install flow.
+The WebView2 SDK is tied to a version of Microsoft Edge and as that version moves through the different channels, so will the WebView2 SDK. The first week the WebView2 SDK is released, it will only work with the Canary channel. After the first week, the WebView2 SDK works with the Dev Channel. After 6 weeks, the WebView2 SDK aligns with the Beta and Stable channels and a new version of the WebView2 SDK will be released.
 
+## Pre-Release vs. Release Package
+To utilize WebView2 within your app you'll need to install and reference the WebView2 SDK in your application. Our NuGet releases will contain both a release and pre-release version. The release version contains the public APIs we currently intend to release to general availability.
+
+The pre-release version will contain additional experimental APIs. These are APIs and functionality we are evaluating and would like feedback on before promoting them to the release version.
+
+In the future, once WebView2 is GA'd, the latest version of the WebView2 SDK will be in the pre-release package. After 6 weeks, when the SDK's minimum browser version requirement aligns with the version of the Stable channel of the Edge Browser, it will move from the pre-release to the release package. Simultaneously, a new WebView2 SDK will be released in the pre-release package.
 
 ## Feedback
 

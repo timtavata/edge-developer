@@ -16,7 +16,7 @@ Each WebView2 SDK has a minimum browser version required to be installed. This b
 
 To develop with WebView2, the minimum version of [Microsoft Edge (chromium)]() supported by the WebView2 SDK must be installed on your machine. Currently, we have the same requirement for user's machines. 
 
-In the future, we do plan to change this requirement. Read our [Distribution]() section to learn more.
+In the future, we do plan to change this requirement. Read about [WebView2 Runtime]() in the [Distribution]() section to learn more.
 
 ## Evergreen vs. Fixed (Bring-Your-Own)
 Currently, we support only an evergreen distribution model – instead of packaging a browser in the app bundle, apps use the evergreen browser installed on users’ machines. The evergreen browser updates itself on a regular cadence, therefore apps targeting the evergreen WebView2 automatically get the latest feature and security updates for hosted web content. The WebView2 SDK is updated separately as new APIs become available. This is the recommended model for most developers. 

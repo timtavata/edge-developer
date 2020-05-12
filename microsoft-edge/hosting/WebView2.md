@@ -12,28 +12,23 @@ keywords: IWebView2, IWebView2WebView, webview2, webview, win32 apps, win32, edg
 
 # Introduction to Microsoft Edge WebView2 (Preview)
 
-The Microsoft Edge WebView2 control enables you to embed web technologies (HTML, CSS, Javacript) in your native application using [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/) as the rendering engine.
+The Microsoft Edge WebView2 control enables you to embed web technologies (HTML, CSS, Javacript) in your native application using [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/) as the rendering engine. 
 
 ![whatwebview](./webview2/images/whatwebview.PNG)
 
 With WebView2, developers can embed web code in parts of their native application or build the entire native application within a single WebView.
 
+## Supported Platforms
 > [!NOTE]
 > The WebView2 control is currently in developer preview, during which you can prototype your solutions and share feedback with us to shape the future stable API. There will likely be some breaking changes as we evolve the API during preview, and when this happens, you will need to have both the WebView2 SDK and the Microsoft Edge (Chromium) browser updated. Breaking changes will be noted in the [release notes](webview2/releasenotes.md) of the SDK. This will lock down as WebView2 approaches beta and stable.
 
-## Supported Platforms
+A developer preview is available for Win32 C/C++, .NET Framework 4.6.2 +, .NET Core 3.0, [WinUI 3.0](https://docs.microsoft.com/uwp/toolkits/winui3/) on Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2016, Windows Server 2012/2012R2, and Windows Server 2008 R2. 
 
-A developer preview is available for Win32 C++, .NET Framework, and .NET Core on Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2016, Windows Server 2012/2012R2, and Windows Server 2008 R2. An Alpha version for WinUI 3.0 is available [here](https://docs.microsoft.com/uwp/toolkits/winui3/).
-
-## Hybrid Application Approach
-
-Developers often have to chose between building a web application or a native application. The decision often hinges on the trade-off between Reach and Power.
-
-![webnative](./webview2/images/webnative.PNG)
-
-Web applications allow for a broad reach. Web developers can reuse most, if not all of their code, across all different platforms. Native applications, however, can utilize the capabilities of the entire native platform.
-
-Hybrid applications allow developers to enjoy the best of both worlds. Hybrid application developers benefit from the ubiquity and strength of the web platform as well as the power and full capabilities of the native platform.
+## Getting Started
+To build and test your application using the WebView2 control, you need to have both [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/download/) and the [WebView2 SDK](https://aka.ms/webviewnuget)installed. Select one of the options below to get started! 
+- [Getting Started with Win32 C/C++]()
+- [Getting Started with WPF]()
+- [Getting Started with WinForms]()
 
 ## Benefits of WebView2
 
@@ -47,13 +42,14 @@ WebView2 is an essential component of hybrid applications, because it allows for
 4. **Native Capabilities:** Developers can access the full set of Native APIs.
 5. **Incremental Adoption:** Developers can add web components piece by piece into their application.   
 
-## Getting Started
-
-To build and test your application using the WebView2 control, you need to have both [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/download/) and the [WebView2 SDK](https://aka.ms/webviewnuget) installed. See [Getting Started](webview2/gettingstarted.md) for detailed instructions, [WebView2 API Sample](https://github.com/MicrosoftEdge/WebView2Samples/tree/master/WebView2APISample) for an interactive guide, [API reference](webview2/reference-webview2.md) to learn about the API, and [Release Notes](webview2/releasenotes.md) for changes made between releases.
 
 ## WebView2 Samples
 
 The [WebView2 Samples](https://github.com/MicrosoftEdge/WebView2Samples) repository contains samples that demonstrate all of the WebView2 SDK's features and their API use patterns. As we add more features to the WebView2 SDK, we will regularly update our sample applications.
+
+## WebView2 Resources
+### Concepts
+### How-To Guides
 
 ## Feedback
 

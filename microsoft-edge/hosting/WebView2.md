@@ -16,14 +16,14 @@ The Microsoft Edge WebView2 control enables you to embed web technologies (HTML,
 
 ![whatwebview](./webview2/images/whatwebview.PNG)
 
-With WebView2, developers can embed web code in parts of their native application or build the entire native application within a single WebView. View our guides to [Get Started]()!
+With WebView2, developers can embed web code in parts of their native application or build the entire native application within a single WebView. View our guides to [Get Started](WebView2.md#GettingStarted)!
 
 > [!NOTE]
 > The WebView2 Preview is intended for early prototyping and to gather feedback from the developer community to helps us shape the future stable API. There will be [breaking changes](webview2/releasenotes.md), so it should NOT be used for production apps.
 
 ## Hybrid Application Approach
 
-Developers often have to chose between building a web application or a native application. The decision often hinges on the trade-off between Reach and Power.
+Developers often have to chose between building a web application or a native application. This decision hinges on the trade-off between Reach and Power.
 
 ![webnative](./webview2/images/webnative.PNG)
 
@@ -31,10 +31,8 @@ Web applications allow for a broad reach. Web developers can reuse most, if not 
 
 Hybrid applications allow developers to enjoy the best of both worlds. Hybrid application developers benefit from the ubiquity and strength of the web platform as well as the power and full capabilities of the native platform.
 
-## Benefits of WebView2
+## WebView2 Benefits 
 ![webviewreasons](./webview2/images/webviewreasons.PNG)
-
-WebView2 is an essential component of hybrid applications, because it allows for: 
 
 1. **Web Ecosystem & Skillset:** utilize the entire web platform, libraries, tooling, and talent that exists within the web ecosystem
 2. **Rapid Innovation:** web development allows for faster deployment and iteration

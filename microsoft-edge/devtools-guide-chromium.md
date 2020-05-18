@@ -131,6 +131,8 @@ These shortcuts control the main DevTools window, work across all tools, or both
 *   [DevTools for Beginners: Get Started with HTML and the DOM][DevtoolsGuideChromiumBeginnersHtml]  
 *   [Microsoft Edge (Chromium) DevTools Protocol][DevtoolsProtocolChromiumIndex]  
 
+[!INCLUDE [deprecation-note](includes/getting-in-touch-devtools.md)]  
+
 ## Getting in touch with the Microsoft Edge DevTools team  
 
 Please send your feedback, so the Microsoft Edge team continues improving the Microsoft Edge DevTools for you!  Simply select the **Feedback** icon in the DevTools or press `Alt`+`Shift`+`I` on Windows \(`Option`+`Shift`+`I` on macOS\) and enter any feedback or feature requests you have for the DevTools.  
